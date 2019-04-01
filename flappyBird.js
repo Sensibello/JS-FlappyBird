@@ -9,11 +9,11 @@ var fg = new Image();
 var pipeNorth = new Image();
 var pipeSouth = new Image();
 
-bird.src = "images/bird.png";
-bg.src = "images/bg.png";
-fg.src = "images/fg.png";
-pipeNorth.src = "images/pipeNorth.png";
-pipeSouth.src = "images/pipeSouth.png";
+bird.src = "/images/bird.png";
+bg.src = "/images/bg.png";
+fg.src = "/images/fg.png";
+pipeNorth.src = "/images/pipeNorth.png";
+pipeSouth.src = "/images/pipeSouth.png";
 
 // variable go below here!
 
@@ -32,8 +32,8 @@ var score = 0;
 var fly = new Audio();
 var scor = new Audio();
 
-fly.src = "sounds/fly.mp3";
-scor.src = "sounds/score.mp3";
+fly.src = "/sounds/fly.mp3";
+scor.src = "/sounds/score.mp3";
 
 // this happens on key down
 
